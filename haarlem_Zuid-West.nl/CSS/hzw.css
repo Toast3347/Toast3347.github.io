@@ -1,0 +1,81 @@
+nav{
+    color: #fff;
+    width: auto;
+    text-align: left;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+nav a{
+    padding-right: 30px;
+    color: #000;
+    text-decoration: none;
+}
+nav img{
+    width: 60px;
+    height: 60px;
+    padding-right: 30px;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 20px;
+
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 30px;
+
+}
+
+h3{
+    padding-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 8px;
+}
+
+
+
+article{
+    padding-left: 1.2%;
+
+}
+
+article a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000;
+    text-decoration: underline;
+}
+
+article ul{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+article ol{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+article li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 18px;
+}
+
+#supermarkten{
+    width: 35%;
+}
+
+#geschiedenis{
+    width: 50%;
+}
