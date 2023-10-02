@@ -1,6 +1,6 @@
 nav{
     color: #fff;
-    width: auto;
+    width: 1200px;
     text-align: left;
     
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -11,6 +11,8 @@ nav a{
     padding-right: 30px;
     color: #000;
     text-decoration: none;
+   
+    
 }
 nav img{
     width: 60px;
