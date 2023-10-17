@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Mukta&display=swap');
+/*navbar*/
+
+#logoAndName {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo-img {
+    width: 128px;
+    height: 128px;
+    padding-right: 30px;
+    float: left;
+    margin-right: 10px;
+}
+
+.logo-text {
+    align-self: flex-end;
+    font-family: 'Gabarito', cursive;
+    font-size: 4em;
+    font-weight: bold;
+    letter-spacing: 5%;
+}
+
+#navigation {
+    background-color: #DB0A13;
+    width: 100%;
+    margin-top: 10px;
+    padding: 0;
+    height: 65px;
+    text-align: center;
+}
+
+#navigation > ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navigation  li {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+#navigation a {
+    font-size: 1.5em;
+    color: #FFF; 
+    text-decoration: none;
+    font-family: 'Gabarito', cursive;
+    display: block;
+    text-align: center;
+    padding: 0;
+    line-height: 65px;
+    letter-spacing: 5%;
+    flex-grow: 1;
+}
+
+#navigation a:hover {
+    text-decoration: underline;
+}
+
+#navigation li.active a {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #DB0A13;
+    height: 50px;
+    width: 100%;
+    padding: 0;
+    color: #fff;
+    font-family: 'Gabarito', cursive;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    line-height: 50px;
+    font-size: 1.25em;
+    letter-spacing: 5%;
+    margin-top: 50px;
+}
+
+/* Content */
+body{
+    max-width: 1440px;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    word-spacing: 0.25em;
+    
+    text-indent: 0;
+    margin:auto;
+}
+
+#pageName > h1{
+    font-family: 'Gabarito', cursive;
+    margin: 20px;
+    font-size: 4em;
+    margin-left: 8.45%;
+}
+
+/*home page*/
+#home {
+    line-height: 2em;
+    margin-left: 8.45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#home > article{
+    flex:1;
+}
+
+#home > article > p {
+    margin-top: 10px;
+    font-size: 1.5em;
+    
+    width: 460px;
+    line-height: 2em;
+    font-family: 'Gabarito', cursive;
+    margin-bottom: 0;
+
+}
+
+#home >article > ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+#home >article > ul > li {
+    font-size: 1.5em;
+    
+    padding-top:1.5em;
+    font-family: 'Gabarito', cursive;
+}
+
+#home > article > figure {
+    flex: 1;
+}
+#home img {
+    width: 589px;
+    height: 442px;
+    float: right;
+    margin-right: 8.45%;
+    border-radius: 20px;
+    vertical-align: bottom;
+}
+
+/*voorzieningen page*/
+#gridVoorzieningen{
+    margin-left: 8.45%;
+    font-family: 'Gabarito', cursive;
+
+}
+
+#gridVoorzieningen h1 {
+    font-size: 2.5em;
+}
+#gridVoorzieningen h2 {
+    font-size: 2em;
+}
+
+#gridVoorzieningen h3 {
+    font-size: 1.5em;
+}
+
+#gridVoorzieningen p {
+    font-size: 1.25em;
+}
+
+#gridVoorzieningen li {
+    font-size: 1.25em;
+}
+
+#gridVoorzieningen a {
+    text-decoration: none;
+    color:#DB0A13;
+    font-size: 1em;
+}
+
+#gridVoorzieningen a:hover {
+    text-decoration: underline;
+}
+
+#supermarkten {
+
+    margin-bottom: 10px;
+}
+#supermarkten h2 {
+    margin-top:20px;
+
+    margin-bottom: 10px;
+}
+
+/*geschiedenis page*/
+
+.gridGeschiedenis{
+    display: grid;
+    grid-template-areas: 
+    'main right'
+    
+    ;
+
+    gap: 10px;
+}
+
+#geschiedenis {
+    font-family: 'Gabarito', cursive;
+    line-height: 2em;
+    margin-left: 8.45%;
+    max-width: 830px;
+
+}
+
+#geschiedenis > figure > a > img{
+    width: 467px;
+    height: auto;
+
+}
+
+
+
+#geschiedenis a {
+    text-decoration: none;
+    color:#DB0A13;
+    font-size: 1em;
+}
+
+#geschiedenis a:hover {
+    text-decoration: underline;
+}
+
+
+/*mobile*/
+@media only screen and (max-width: 768px){
+
+
+}

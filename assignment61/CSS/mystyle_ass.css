@@ -1,145 +1,159 @@
-*{
+* {
     border: 0;
     margin: 0;
     padding: 0;
     background-color: #fff;
+
 }
 
-body{
+body {
     width: 800px;
     margin: auto;
 
 }
 
-img{
+img {
     width: 100px;
+
 }
 
-#mainmenu > a
+
+
+#mainmenu 
+{
+    display: flex;
+
+}
+
+
+
+#mainmenu > a 
 {
     width: 20%;
     height: 100%;
-    float: left;
-
 
 }
 
-#mainmenu > a > img
+
+
+#mainmenu > a > img 
 {
     display: block;
     margin: auto;
     height: 100%;
+
 }
 
-#mainmenu > ul
+
+#mainmenu > ul 
 {
-    width: 60%;
+    flex: 1;
     line-height: 7em;
-    float: left;
     text-align: center;
+    display: flex;
 }
 
-#mainmenu > ul > li
+
+#mainmenu > ul > li 
 {
     display: inline;
-
 }
 
-#mainmenu > form
+
+
+#mainmenu > form 
 {
-    width: 20%;
+    flex: 1;
     line-height: 7em;
-    float: left;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-#mainmenu > form > h3
-{
+#mainmenu > form > h3 {
     text-align: center;
 
 }
 
-#company_payoff{
+#company_payoff {
     clear: both;
     padding-top: 2em;
     padding-bottom: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
 }
 
-#company_payoff > h1, #company_payoff > h2{
+#company_payoff > h1, #company_payoff > h2 {
     text-align: center;
     text-transform: uppercase;
+    
 }
 
-main{
+main {
     clear: both;
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 
 }
 
 main > .main_article {
     width: 50%;
-    float: left;
 }
 
-main> .main_article > a {
-    float: left;
+main > .main_article > a {
+    display: flex;
+    flex-direction: column;
+
 }
 
-#company_footer{
+#company_footer {
     clear: both;
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
 }
 
-#company_footer_section_1{
+
+#company_footer_section_1 {
     width: 30%;
-    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 
 }
 
-#company_footer_section_2{
+#company_footer_section_2 {
     width: 70%;
-    float: left;
+    display: flex;   
+    flex-wrap: wrap;  
+    justify-content: space-between;  
+    align-items: flex-start;  
 
+} 
+
+#company_footer_section_2 > aside, #company_footer_section_2 > section {
+    width: 30%; 
+    display: flex; 
+    flex-direction: column;  
 }
 
-#company_footer_section_2 > aside {
-    width: 30%;
-    float: left;
+#company_footer_section_2 > section > a > img {
+    width: 20%; 
+    margin: 5% ;
 
 }
-
-#company_footer_section_2> section{
-    width: 30%;
-    float: left;
-
-}
-
-#company_footer_section_2> section{
-    width: 40%;
-    float: left;
-
-}
-
-#company_footer_section_2> section > a > img{
-    width: 20%;
-    margin: 5%;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
 
 video{
     height: 300px;
     float: left;
 }
+
+
+
 

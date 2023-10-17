@@ -1,83 +1,86 @@
-nav{
-    color: #fff;
-    width: 1200px;
-    text-align: left;
-    
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Mukta&display=swap');
+
+#logoAndName {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
-nav a{
+.logo-img {
+    width: 128px;
+    height: 128px;
     padding-right: 30px;
-    color: #000;
+    float: left;
+    margin-right: 10px;
+}
+
+.logo-text {
+    align-self: flex-end;
+    font-family: 'Gabarito', cursive;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+#navigation {
+    background-color: #DB0A13;
+    width: 100%;
+    margin-top: 10px;
+    padding: 0;
+    height: 65px;
+    text-align: center;
+}
+
+#navigation > ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#navigation  li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:10px;
+    margin-right:10px;
+    padding:0;
+}
+
+#navigation a {
+    font-size: 1.5em;
+    color: #FFF; 
     text-decoration: none;
-   
-    
-}
-nav img{
-    width: 60px;
-    height: 60px;
-    padding-right: 30px;
+    font-family: 'Gabarito', cursive;
+    padding: 0;
+    line-height: 65px;
 }
 
-h1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-top: 20px;
-
-}
-
-h2{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-top: 30px;
-
-}
-
-h3{
-    padding-top: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-}
-
-h4{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-}
-
-p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-top: 8px;
-}
-
-
-
-article{
-    padding-left: 1.2%;
-
-}
-
-article a{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #000;
+#navigation a:hover {
     text-decoration: underline;
 }
 
-article ul{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+#navigation li.active a {
+    text-decoration: underline;
 }
 
-article ol{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 
-article li{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-top: 18px;
-}
+/* Add the following margin for the navigation to be 10px under the logo and picture */
 
-#supermarkten{
-    width: 35%;
-}
 
-#geschiedenis{
-    width: 50%;
+footer {
+    background-color: #DB0A13;
+    height: 50px;
+    width: 100%;
+    padding: 0;
+    color: #fff;
+    font-family: 'Gabarito', cursive;
+    font-size: 20px;
+    position: absolute;
+    bottom: 0; /* Stick the footer to the bottom */
+    left: 0;
+    right: 0;
+    text-align: center;
+    line-height: 50px;
+    font-size: 1.25em;
 }
