@@ -297,6 +297,16 @@ body{
 
 
 
+
+
+
+
+
+#vraag{
+    height: 200px;
+
+}
+
 /*mobile*/
 @media only screen and (max-width: 768px){
 

@@ -27,6 +27,26 @@
         </ul>
     </nav>
 
+    <form>
+        <fieldset id = "voorzieningenIndex">
+        <legend>Contact</legend>
+        <label for="fname">Voornaam:</label>
+        <input type ="text" id = "fname" name = "fname">
+
+        <label for="lname">Achtenaam:</label>
+        <input type ="text" id = "lname" name = "lname">
+
+        <label for="email">Email:</label>
+        <input type ="text" id = "email" name = "email">
+
+        <label for="phone">Telefoon nummer:</label>
+        <input type ="number" id = "phone" name = "phone">
+
+        <label for="vraag">Vraag:</label>
+        <textarea id="vraag" name ="vraag" placeholder = "Schrijf hier uw vraag..."></textarea>
+        </fieldset>
+    </form>
+
     
     
     <footer>
@@ -34,6 +54,21 @@
 
 
     </footer>
+
+
+    <!--Check w3 schools how to create a mobile navigation bar if i get stuck.-->
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("mobileLinks");
+            if (x.style.display === "block"){
+                x.style.display="none";
+            }
+            else{
+                x.style.display = "block" ;
+            }
+        }
+    </script>
 
 
 </body>
