@@ -295,8 +295,81 @@ body{
 }
 
 
+/*Recreatie page*/
+
+#gridRecreatie{
+    font-family: 'Gabarito', cursive;
+    line-height: 2em;
+    max-width: 100%;
+
+}
+
+#gridRecreatie > article {
+    
 
 
+    margin-left: 7.5%;
+
+}
+
+#gridRecreatie > article >h1 {
+    max-width: 585px;
+    margin-left: 7.5%;
+
+}
+
+#gridRecreatie > article >h2 {
+    max-width: 585px;
+
+    margin-left: 7.5%;
+
+}
+
+#gridRecreatie > article >h3 {
+    max-width: 585px;
+    margin-top: 150px;
+    margin-left: 7.5%;
+
+}
+#gridRecreatie > article >p {
+    max-width: 585px;
+
+    margin-left: 7.5%;
+
+}
+
+#gridRecreatie > article > figure {
+
+    margin-right: 7.5%;
+    margin:0;
+    padding:0;
+    float: right;
+
+}
+
+#gridRecreatie > article > figure > a >img {
+    width:400px;
+   
+    float: right;
+
+}
+
+#gridRecreatie > article > a {
+    
+    margin-left: 7.5%;
+
+}
+
+
+#gridRecreatie a {
+    text-decoration: none;
+    color:#DB0A13; 
+}
+
+#maps{
+    text-decoration: underline;
+    color:#000000;
+}
 
 
 
@@ -307,8 +380,125 @@ body{
 
 }
 
+
+/*Evenementen page*/
+
+
+#gridEvenementen {
+    display: grid;
+    grid-template-columns: 690px 100%;
+    gap: 10px;
+    font-family: 'Gabarito', cursive;
+    line-height: 2em;
+  }
+  
+
+  
+#evenementen h2 {
+    text-align: left;
+    margin-top: 1em;
+    margin:0;
+    padding:0;
+}
+  
+#evenementen figure {
+    
+    margin:0;
+    padding:0;
+}
+  
+#evenementen p {
+    text-align: left;
+ 
+    margin-top: auto;
+    
+}
+  
+
+#evenementen ul, #evenementen ul li {
+    margin: 0;
+    padding: 0;
+}
+
+
+#evenementen img{
+    width: 450px;
+
+}
+
+/*Contact*/
+
+#contact{
+    font-family: 'Gabarito', cursive;
+    line-height: 2em;
+}
+
+#contactForm{
+    font-family: 'Gabarito', cursive;
+    line-height: 2em;
+    align-items: left;
+}
+
+
+
 /*mobile*/
-@media only screen and (max-width: 768px){
-
-
+/* Add this CSS inside your hzw.css file */
+@media only screen and (max-width: 768px) {
+    /* Remove the float and margin properties from the logo image */
+    .logo-img {
+        width: 128px;
+        height: 128px;
+        padding-right: 30px;
+    }
+    
+    /* Center the logo text and add some spacing */
+    .logo-text {
+        font-family: 'Gabarito', cursive;
+        font-size: 4em;
+        margin: 10px 0;
+        font-weight: bold;
+    }
+    
+    /* Adjust the navigation bar for vertical stacking */
+    #navigation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #DB0A13;
+        width: 100%;
+        margin-top: 10px;
+        padding: 0;
+        text-align: center;
+    }
+    
+    /* Adjust navigation links for vertical layout */
+    #navigation ul {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /* Reset individual navigation items */
+    #navigation li {
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    /* Add spacing to the navigation links */
+    #navigation a {
+        font-size: 1.5em;
+        color: #FFF;
+        text-decoration: none;
+        font-family: 'Gabarito', cursive;
+        text-align: center;
+        padding: 0;
+        line-height: 1.5;
+        letter-spacing: 5%;
+    }
+    
+    /* Styles for the active link (if needed) */
+    #navigation li.active a {
+        text-decoration: underline;
+    }
 }
