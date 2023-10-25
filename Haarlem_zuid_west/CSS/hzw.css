@@ -113,6 +113,7 @@
         line-height: 2em;
         margin-left: 8.45%;
         display: flex;
+        flex-direction: row-reverse;
         justify-content: space-between;
         align-items: center;
     }
@@ -623,4 +624,124 @@
         background-color: #04AA6D;
         color: white;
       }
+
+
+      #logoAndName {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: flex-end;
+
+        overflow: hidden;
+      }
+    
+      .logo-img {
+        width: 80px;
+        height: 80px;
+        margin-right: 10px;
+      }
+    
+      .logo-text {
+        font-family: 'Gabarito', cursive;
+        font-size: 1.5em;
+        margin-right:0;
+        text-align: center;
+        position: absolute;
+        text-align: center;
+      
+        top:26px;
+        font-weight: bold;
+        transform: translateX(-50%);
+        left: 50%;
+       
+       
+      }
+
+
+
+      body{
+        max-width: 768px;
+        font-size: 16px;
+        letter-spacing: 1.5px;
+        word-spacing: 0.05em;
+        text-indent: 0;
+        margin:auto;
+      }
+  
+
+      footer {
+        clear:both;
+        background-color: #DB0A13;
+        height: 50px;
+        width: 100%;
+        padding: 0;
+        color: #fff;
+        font-family: 'Gabarito', cursive;
+        position: relative;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        line-height: 50px;
+        font-size: 1.25em;
+        letter-spacing: 5%;
+        margin-top: 50px;
+    }
+
+
+    #pageName{
+        text-align: center;
+        font-size: 1.5em;
+        font-family: 'Gabarito', cursive;
+        font-weight: strong;
+
+    }
+
+
+
+
+    /*Home mobile*/
+
+    #home {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align:center;
+        width:290px;
+        margin:auto;
+
+       
+    }
+    #home img{
+        width:290px;
+        border-radius: 20px;
+        
+    }
+  
+
+    #home > article > p {
+        margin-top: 10px;
+        font-size: 1em;
+        
+        width: 460px;
+        line-height: 2em;
+        font-family: 'Gabarito', cursive;
+        margin-bottom: 0;
+    
+    }
+    #home >article > ul {
+        list-style: none;
+        padding: 0;
+    
+    }
+
+    #home >article > ul > li {
+        font-size: 1em;
+        
+        padding-top:1em;
+        font-family: 'Gabarito', cursive;
+    }
+
+
+
 }
