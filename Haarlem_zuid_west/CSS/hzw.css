@@ -72,6 +72,7 @@
     }
     
     footer {
+        clear:both;
         background-color: #DB0A13;
         height: 50px;
         width: 100%;
@@ -498,16 +499,80 @@
     }
     /*Contact*/
     
-    #contact{
+    #ContactPage{
         font-family: 'Gabarito', cursive;
         line-height: 2em;
+    }
+
+    #ContactPage h1{
+        font-family: 'Gabarito', cursive;
+        font-size:4em;
+        width:450px;
+
+
+    }
+
+    #ContactPage p{
+        font-family: 'Gabarito', cursive;
+        font-size:1.25em;
+        width:640px;
     }
     
-    #contactForm{
+    #ContactForm{
         font-family: 'Gabarito', cursive;
         line-height: 2em;
-        align-items: left;
+        width: 400px;
+        
+        
+        float:right;
+        margin-bottom: 50px;
+        margin-right:15%;
+       
     }
+    #SubmitButton {
+        text-align: center;
+    }
+
+    #ContactForm label, input, textarea{
+        display:block;
+        margin-bottom: 10px;
+
+    }
+    #ContactForm input{
+        display: inline-block;
+        
+    }
+
+    #ContactForm label{
+        display:inline-block;
+        margin-bottom: 10px;
+        width: 200px;
+
+    }
+    #gender{
+        float:none;
+    }
+    #gender label{
+        width:auto;
+    }
+
+    
+
+    #ContactForm textarea{
+        display:inline-block;
+        margin-bottom: 20px;
+        text-align: center;
+        width:400px;
+
+    }
+
+    #gender label, input, textarea{
+        display:inline-block;
+        margin-bottom: 10px;
+
+    }
+   
+    
 
     
 }
