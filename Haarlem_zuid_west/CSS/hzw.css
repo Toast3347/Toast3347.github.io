@@ -972,6 +972,170 @@
     }
 
 
+    /*Voorzieningen mobile*/
+    #gridVoorzieningen {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align:center;
+        width:290px;
+        margin:auto;
+
+    }
+
+    #gridVoorzieningen img{
+        width:290px;
+        border-radius: 20px;
+
+    }
+
+    #gridVoorzieningen  h1 {
+        font-size:1.25em;
+        font-family: 'Gabarito', cursive;
+        margin-top: 100px;
+
+    }
+
+
+    #gridVoorzieningen   p {
+        margin-top: 10px;
+        font-size: 1em;
+        width: 290px;
+        line-height: 2em;
+        font-family: 'Gabarito', cursive;
+        margin-bottom: 0;
+    }
+
+    #gridVoorzieningen article > ul {
+        list-style: none;
+        padding: 0;
+    
+    }
+
+    #gridVoorzieningen  article > ul > li {
+        font-size: 1em;
+        padding-top:1em;
+        font-family: 'Gabarito', cursive;
+       
+    }
+    
+
+    #gridVoorzieningen a {
+        text-decoration: none;
+        color:#DB0A13;
+        font-size: 1em;
+        max-width: 290px;
+       
+    }
+    
+    #gridVoorzieningen a:hover {
+        text-decoration: underline;
+    }
+
+    #gridVoorzieningen article >  figure > figcaption{
+        font-size: 0.75em;
+        font-family: 'Gabarito', cursive;
+        text-align: left;
+
+    }
+
+    /*Contact mobile*/
+
+
+    #ContactPage{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align:center;
+        width:290px;
+        margin:auto;
+    }
+
+    
+
+    #ContactPage p{
+        font-family: 'Gabarito', cursive;
+        font-size:1.25em;
+        width:290px;
+    }
+    
+    #ContactForm{
+        font-family: 'Gabarito', cursive;
+        margin: auto;
+        line-height: 2em;
+        width: 290px;
+        margin-bottom: 50px;
+        
+       
+    }
+    #SubmitButton {
+        text-align: center;
+    }
+
+    #ContactForm label, input, textarea{
+        display:block;
+        margin-bottom: 10px;
+        margin: auto;
+        
+
+    }
+    #ContactForm input{
+        display: block;
+        margin:auto
+        
+        
+    }
+
+    #ContactForm label{
+        display:inline-block;
+        margin-bottom: 10px;
+        width:290px;
+        text-align: center;
+
+    }
+    #gender{
+        float:none;
+        text-align: center;
+    }
+    #gender label{
+        width:auto;
+        
+    }
+    #gender input{
+        display:inline-block;
+    }
+
+    #ContactForm legend{
+        text-align: center;
+    }
+
+    #ContactForm textarea{
+        display:inline-block;
+        margin: auto;
+        margin-bottom: 20px;
+        text-align: center;
+        width:290px;
+        margin-top:50px;
+
+    }
+
+    #gender label, input, textarea{
+        display:inline-block;
+        margin: auto;
+        margin-bottom: 10px;
+
+    }
+
+    #vraag{
+        height: 200px;
+        margin: auto;
+        
+    
+    }
+
+
 
 
 
