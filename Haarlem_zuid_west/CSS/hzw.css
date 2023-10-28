@@ -70,6 +70,10 @@
     #navigation li.active a {
         text-decoration: underline;
     }
+
+    .dropbtn{
+        display:none;
+    }
     
     footer {
         clear:both;
@@ -308,31 +312,20 @@
     
     }
     
-    #gridRecreatie > article {
-        
+
     
-    
-       
-    
-    }
+   
     
     #gridRecreatie > article >h1 {
         max-width: 585px;
-        margin-left: 7.5%;
         font-size:4em;
+        
+    
+        margin-left: 7.5%;
     
     }
     
     #gridRecreatie > article >h2 {
-        max-width: 585px;
-        font-size:4em;
-        margin-top: 150px;
-    
-        margin-left: 7.5%;
-    
-    }
-    
-    #gridRecreatie > article >h3 {
         max-width: 585px;
         margin-top: 200px;
         margin-left: 7.5%;
@@ -402,14 +395,14 @@
         color:#000000;
     }
     
-    
-    
-    
-    
-    #vraag{
-        height: 200px;
-    
+    #Parken {
+        margin-top: 150px;
     }
+
+    #Sportscholen {
+        margin-top: 350px;
+    }
+    
     
     
     /*Evenementen page*/
@@ -422,19 +415,10 @@
         
       }
     
-    #evenementen h1 {
-        text-align: left;
-        line-height: 1em;
-     
-        margin-top: 50px;
-        
-        margin-left: 7.5%;
-        font-size: 4em;
-        max-width: 690px;
-    }
+
     
       
-    #evenementen h2 {
+    #evenementen h1 {
         text-align: left;
         margin:0;
         margin-top: 50px;
@@ -572,6 +556,11 @@
         margin-bottom: 10px;
 
     }
+
+    #vraag{
+        height: 200px;
+    
+    }
    
     
 
@@ -584,47 +573,50 @@
 /*mobile*/
 /* Add this CSS inside your hzw.css file */
 @media only screen and (max-width: 768px) {
-    #navigation {
-        overflow: hidden;
-        background-color: #333;
-        position: relative;
-      }
-      
-      /* Hide the links inside the navigation menu (except for logo/home) */
-      #navigation #myLinks {
-        display: none;
-      }
-      
-      /* Style navigation menu links */
-      #navigation a {
+    .dropbtn {
+        background-color: #000;
         color: white;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-        display: block;
+        font-family: 'Gabarito', cursive;
+        padding: 16px;
+        font-size: 1em;
+        border: none;
+        cursor: pointer;
       }
-      
-      /* Style the hamburger menu */
-      #navigation a.icon {
-        background: black;
-        display: block;
-        position: absolute;
-        right: 0;
-        top: 0;
-      }
-      
-      /* Add a grey background color on mouse-over */
-      #navigation a:hover {
-        background-color: #ddd;
-        color: black;
-      }
-      
-      /* Style the active link (or home/logo) */
-      .active {
-        background-color: #04AA6D;
-        color: white;
+      .dropbtn:hover, .dropbtn:focus {
+        background-color: #FFF;
+        color:#000;
       }
 
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        overflow: auto;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        font-family: 'Gabarito', cursive;
+        list-style-type: none;
+        margin-left:0;
+        padding-left:0;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .dropdown a:hover {background-color: #ddd;}
+      
+      .show {display: block;}
+     
 
       #logoAndName {
         display: flex;
@@ -692,7 +684,7 @@
         text-align: center;
         font-size: 1.5em;
         font-family: 'Gabarito', cursive;
-        font-weight: strong;
+        font-weight: bold;
 
     }
 
@@ -723,7 +715,7 @@
         margin-top: 10px;
         font-size: 1em;
         
-        width: 460px;
+        width: 290px;
         line-height: 2em;
         font-family: 'Gabarito', cursive;
         margin-bottom: 0;
@@ -741,6 +733,245 @@
         padding-top:1em;
         font-family: 'Gabarito', cursive;
     }
+
+    /*Geschiedenis mobile*/
+
+    #geschiedenis {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align:center;
+        width:290px;
+        margin:auto;
+
+    }
+
+    #geschiedenis img{
+        width:290px;
+        border-radius: 20px;
+
+    }
+
+    #geschiedenis   h1 {
+        font-size:1.25em;
+        font-family: 'Gabarito', cursive;
+        margin-top: 100px;
+
+    }
+
+
+    #geschiedenis  > p {
+        margin-top: 10px;
+        font-size: 1em;
+        width: 290px;
+        line-height: 2em;
+        font-family: 'Gabarito', cursive;
+        margin-bottom: 0;
+    }
+
+    #geschiedenis > ul {
+        list-style: none;
+        padding: 0;
+    
+    }
+
+    #geschiedenis   ul > li {
+        font-size: 1em;
+        padding-top:1em;
+        font-family: 'Gabarito', cursive;
+       
+    }
+    #geschiedenis   ol > li {
+        font-size: 1em;
+        padding-top:1em;
+        font-family: 'Gabarito', cursive;
+       
+    }
+
+    #geschiedenis a {
+        text-decoration: none;
+        color:#DB0A13;
+        font-size: 1em;
+       
+    }
+    
+    #geschiedenis a:hover {
+        text-decoration: underline;
+    }
+
+
+    /*Recreatie mobile*/
+
+    #gridRecreatie article {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align:center;
+        width:290px;
+        margin:auto;
+
+    }
+
+    #gridRecreatie img{
+        width:290px;
+        border-radius: 20px;
+
+    }
+
+    #gridRecreatie article > h1{
+        font-size:1.5em;
+        font-family: 'Gabarito', cursive;
+        margin-top: 10px;
+        font-family: 'Gabarito', cursive;
+
+    }
+
+    #gridRecreatie article > h2{
+        font-size: 1.25em;
+        font-family: 'Gabarito', cursive;
+        margin-top: 75px;
+
+    }
+
+
+    #gridRecreatie article  > p {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        text-align:center;
+        margin:auto;
+        margin-top: 10px;
+        font-size: 1em;
+        width: 290px;
+        line-height: 2em;
+        font-family: 'Gabarito', cursive;
+        margin-bottom: 0;
+    }
+    #gridRecreatie article  > p> a{
+        text-decoration: none;
+        color:#DB0A13;
+        font-size: 1em;
+        font-family: 'Gabarito', cursive;
+
+    }
+
+    #gridRecreatie article > ul {
+        list-style: none;
+        padding: 0;
+    
+    }
+
+    #gridRecreatie article >  ul > li {
+        font-size: 1em;
+        padding-top:1em;
+        font-family: 'Gabarito', cursive;
+       
+    }
+    
+
+    #gridRecreatie article ul > li > a {
+        text-decoration: none;
+        color:#DB0A13;
+        font-size: 1em;
+        font-family: 'Gabarito', cursive;
+       
+    }
+
+    #gridRecreatie article ul > li > a:hover {
+        text-decoration: underline;
+    }
+
+    #gridRecreatie article > a {
+        text-decoration: none;
+        color:#DB0A13;
+        font-size: 1em;
+        font-family: 'Gabarito', cursive;
+       
+    }
+    
+    #gridRecreatie article > a:hover {
+        text-decoration: underline;
+    }
+
+    #gridRecreatie article > figure > figcaption{
+        font-size: 0.75em;
+        font-family: 'Gabarito', cursive;
+        text-align: left;
+
+    }
+
+    /*Evenementen mobile*/
+
+    #evenementen {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align:center;
+        width:290px;
+        margin:auto;
+
+    }
+
+    #evenementen img{
+        width:290px;
+        border-radius: 20px;
+
+    }
+
+    #evenementen   h1 {
+        font-size:1.25em;
+        font-family: 'Gabarito', cursive;
+        margin-top: 100px;
+
+    }
+
+
+    #evenementen  > p {
+        margin-top: 10px;
+        font-size: 1em;
+        width: 290px;
+        line-height: 2em;
+        font-family: 'Gabarito', cursive;
+        margin-bottom: 0;
+    }
+
+    #evenementen > ul {
+        list-style: none;
+        padding: 0;
+    
+    }
+
+    #evenementen   ul > li {
+        font-size: 1em;
+        padding-top:1em;
+        font-family: 'Gabarito', cursive;
+       
+    }
+    
+
+    #evenementen a {
+        text-decoration: none;
+        color:#DB0A13;
+        font-size: 1em;
+        max-width: 290px;
+       
+    }
+    
+    #evenementen a:hover {
+        text-decoration: underline;
+    }
+
+    #evenementen  figure > figcaption{
+        font-size: 0.75em;
+        font-family: 'Gabarito', cursive;
+        text-align: left;
+
+    }
+
+
 
 
 

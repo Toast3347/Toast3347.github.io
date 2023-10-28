@@ -2,7 +2,7 @@
 <meta charset="UTF-8">
 <html>
 <head>
-<title>Haarlem_Zuid-West.nl/Home</title>
+<title>Haarlem_Zuid-West.nl/Geschiedenis</title>
 <link rel="icon" type="image/x-icon" href="../img/Logo/Logo3_1_favicon_16x16.png">
 <link rel="stylesheet" href ="../CSS/hzw.css">
 </head>
@@ -16,8 +16,8 @@
         
     </header>
     <nav id="navigation">
-        <ul>
-
+        <button onclick="myFunction()" class="dropbtn">Menu</button>
+        <ul id = "myLinks" class = "dropdown-content">
             <li><a href="../index.html">Home</a></li>
             <li><a href="voorzieningen.html">Voorzieningen</a></li>
             <li><a href="evenementen.html">Evenementen</a></li>
@@ -160,16 +160,26 @@
     <!--Check w3 schools how to create a mobile navigation bar if i get stuck.-->
 
     <script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
         function myFunction() {
-            var x = document.getElementById("mobileLinks");
-            if (x.style.display === "block"){
-                x.style.display="none";
-            }
-            else{
-                x.style.display = "block" ;
-            }
+          document.getElementById("myLinks").classList.toggle("show");
         }
-    </script>
+        
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }
+        </script>
 
 
 </body>

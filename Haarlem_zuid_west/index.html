@@ -19,7 +19,8 @@
         
     </header>
     <nav id="navigation">
-        <ul id = "myLinks">
+        <button onclick="myFunction()" class="dropbtn">Menu</button>
+        <ul id = "myLinks" class = "dropdown-content">
             <li class = "active"><a href="index.html">Home</a></li>
             <li><a href="links/voorzieningen.html">Voorzieningen</a></li>
             <li><a href="links/evenementen.html">Evenementen</a></li>
@@ -74,16 +75,26 @@
     <!--Check w3 schools how to create a mobile navigation bar if i get stuck.-->
 
     <script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
         function myFunction() {
-            var x = document.getElementById("mobileLinks");
-            if (x.style.display === "block"){
-                x.style.display="none";
-            }
-            else{
-                x.style.display = "block" ;
-            }
+          document.getElementById("myLinks").classList.toggle("show");
         }
-    </script>
+        
+        // Close the dropdown menu if the user clicks outside of it
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }
+        </script>
 
 
 
