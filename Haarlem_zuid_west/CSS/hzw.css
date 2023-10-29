@@ -578,6 +578,7 @@
         color: white;
         font-family: 'Gabarito', cursive;
         padding: 16px;
+        width:100%;
         font-size: 1em;
         border: none;
         cursor: pointer;
@@ -620,7 +621,7 @@
 
       #logoAndName {
         display: flex;
-        flex-direction: row-reverse;
+        flex-direction: row;
         align-items: flex-end;
 
         overflow: hidden;
@@ -991,6 +992,14 @@
     }
 
     #gridVoorzieningen  h1 {
+        font-size:1.375em;
+        font-family: 'Gabarito', cursive;
+        margin-top: 100px;
+
+    }
+
+
+    #gridVoorzieningen  h2 {
         font-size:1.25em;
         font-family: 'Gabarito', cursive;
         margin-top: 100px;
