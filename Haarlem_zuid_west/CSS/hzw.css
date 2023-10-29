@@ -164,6 +164,10 @@
     
     /*voorzieningen page*/
 
+    #voorzieningenbody{
+        width:1440px;
+    }
+
     #pageNameVoorzieningen{
         font-family: 'Gabarito', cursive;
         margin: 20px;
@@ -216,7 +220,7 @@
         
     }
     #supermarkten h2 {
-        margin-top:50px;
+        margin-top:150px;
     
         margin-bottom: 10px;
     }
@@ -237,8 +241,6 @@
 
     #supermarktenimages{
         float: right;
-        
-
     }
 
     #supermarktenimages img{
@@ -248,7 +250,21 @@
     }
 
     #vomarstephenson{
-        margin-top: 100px;
+        clear:both;
+        float: right;
+        margin-top:100px;
+        
+    }
+    #vomarlocatie{
+        margin-top:100px;
+    }
+
+    
+    
+
+    #vomarstephenson img{
+        width: 400px;
+        border-radius: 20px;
     }
 
     #scholen h1{
@@ -359,6 +375,50 @@
     #Openbaarvervoerimg img{
         width:350px;
         border-radius: 20px;
+    }
+    
+    #voorzieningenindex{
+        float:right;
+        position:fixed;
+        right:13%;
+        width:350px;
+        max-width: 100%;
+        top: 35%;
+
+       
+    }
+
+    #voorzieningenindex legend{
+        font-size: 1.5em;
+        color:#000;
+        margin:auto;
+        font-family: 'Gabarito', cursive;
+        
+    }
+
+    #voorzieningenindex li{
+        margin-top:28px;
+        
+    }
+
+    #voorzieningenindex a{
+        font-size: 1.5em;
+        color:#000;
+        text-decoration: none;
+        font-family: 'Gabarito', cursive;
+
+      
+    }
+    #voorzieningenindex a:hover{
+        font-size: 1.5em;
+        
+        text-decoration: underline;
+    }
+
+    #voorzieningenindex fieldset{
+        
+        border-radius: 50px;
+
     }
 
     
@@ -1137,6 +1197,15 @@
 
 
     /*Voorzieningen mobile*/
+
+    #pageNameVoorzieningen{
+        text-align: center;
+        font-size: 1.5em;
+        font-family: 'Gabarito', cursive;
+        font-weight: bold;
+
+    }
+
     #gridVoorzieningen {
         display:flex;
         flex-direction: column;
@@ -1163,14 +1232,22 @@
 
 
     #gridVoorzieningen  h2 {
-        font-size:1.25em;
+        font-size:1.375em;
         font-family: 'Gabarito', cursive;
         margin-top: 100px;
 
     }
 
+    #gridVoorzieningen  h3 {
+        font-size:1.25em;
+        font-family: 'Gabarito', cursive;
+        margin-top:50px;
+
+    }
+
 
     #gridVoorzieningen   p {
+        margin:auto;
         margin-top: 10px;
         font-size: 1em;
         width: 290px;
@@ -1209,6 +1286,44 @@
         font-size: 0.75em;
         font-family: 'Gabarito', cursive;
         text-align: left;
+
+    }
+
+    #voorzieningenindex{
+        width:290px;
+        margin:auto;  
+    }
+
+    #voorzieningenindex legend{
+        font-size: 1.5em;
+        color:#000;
+        margin:auto;
+        font-family: 'Gabarito', cursive;
+        
+    }
+
+    #voorzieningenindex li{
+        margin-top:28px;
+        
+    }
+
+    #voorzieningenindex a{
+        font-size: 1.5em;
+        color:#000;
+        text-decoration: none;
+        font-family: 'Gabarito', cursive;
+
+      
+    }
+    #voorzieningenindex a:hover{
+        font-size: 1.5em;
+        
+        text-decoration: underline;
+    }
+
+    #voorzieningenindex fieldset{
+        
+        border-radius: 50px;
 
     }
 
