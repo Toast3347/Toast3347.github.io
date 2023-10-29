@@ -1,0 +1,5 @@
+Student name: Jasper Sebregts
+Student number: 706971
+Student class: INF1B
+GitHub Repository: https://github.com/Toast3347/Toast3347.github.io
+GitHub Pages URL: https://toast3347.github.io/
