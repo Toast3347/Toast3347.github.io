@@ -298,7 +298,7 @@
 
     #scholenimg img{
         width:350px;
-        border-radius: 10px;
+        border-radius: 20px;
     }
 
     #subarticlevoorzieningen{
@@ -718,6 +718,7 @@
         width: 400px;
         float: right;
         border-radius: 10px;
+        
     
     }
     
@@ -739,6 +740,10 @@
     
     #evenementen a:hover {
         text-decoration: underline;
+    }
+
+    #evenementen figure{
+        margin-right:7.5%;
     }
     /*Contact*/
     
