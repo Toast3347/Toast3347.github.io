@@ -59,7 +59,7 @@
         text-align: center;
         padding: 0;
         line-height: 65px;
-        letter-spacing: 5%;
+        letter-spacing: 1.05px;
         flex-grow: 1;
     }
     
@@ -90,7 +90,7 @@
         text-align: center;
         line-height: 50px;
         font-size: 1.25em;
-        letter-spacing: 5%;
+        letter-spacing: 1.05px;
         margin-top: 50px;
     }
     
@@ -421,7 +421,7 @@
         border-color:#000;
         border-radius: 50px;
         border-style:solid;
-        border-width:100%;
+        border-width:1px;
 
     }
 
@@ -969,7 +969,7 @@
         text-align: center;
         line-height: 50px;
         font-size: 1.25em;
-        letter-spacing: 5%;
+        letter-spacing: 1.05px;
         margin-top: 50px;
     }
 
