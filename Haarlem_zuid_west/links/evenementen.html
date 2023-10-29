@@ -145,7 +145,7 @@
             <p>Voor meer informatie en actuele tarieven ga naar de <a href= "https://www.kikahaarlemcitywalk.nl/">website</a>.</p>
     
     
-            <h1>Kidsraces Haarlem Zuid-West</h1>
+            <h1>Kidsraces Haarlem Zuid-West:</h1>
 
             <figure><a href="evenementen.html">
                 <img src="../img/Evenementen/Kidsraces.png" Alt = "Foto van de start van een van de Kidsraces" title = "Kidsraces">
@@ -163,8 +163,8 @@
     
             <h1>Houtnacht en Houtfestival:</h1>
 
-            <figure><a href="evenementen.html">
-                <img id="houtnacht" src="../img/Evenementen/Haarlemmerhout.JPG" Alt = "Foto van de Haarlemmerhout" title = "Haarlemmerhout">
+            <figure id="houtnacht"><a href="evenementen.html">
+                <img src="../img/Evenementen/Haarlemmerhout.JPG" Alt = "Foto van de Haarlemmerhout" title = "Haarlemmerhout">
               </a>
               
             
@@ -209,7 +209,7 @@
     
             <h1>Korenlint:</h1>
 
-            <figure><a href="evenementen.html">
+            <figure id = "korenlint"><a href="evenementen.html">
                 <img src="../img/Evenementen/Korenlint.JPG" Alt = "Foto van de Nieuwe Kerk bij het Nieuwe Kerksplein" title = "Bloemencorso">
               </a>
               
@@ -250,16 +250,15 @@
 
     </footer>
 
-    <!--Check w3 schools how to create a mobile navigation bar if i get stuck.-->
+    
 
     <script>
-      /* When the user clicks on the button, 
-      toggle between hiding and showing the dropdown content */
+      
       function myFunction() {
         document.getElementById("myLinks").classList.toggle("show");
       }
       
-      // Close the dropdown if the user clicks outside of it
+      
       window.onclick = function(event) {
         if (!event.target.matches('.dropbtn')) {
           var dropdowns = document.getElementsByClassName("dropdown-content");

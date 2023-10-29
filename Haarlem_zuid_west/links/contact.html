@@ -28,8 +28,15 @@
     </nav>
 
     <section id ="pageName"><h1>Contact</h1></section>
+    
 
     <section id="ContactPage">
+
+        <figure><a href="contact.html">
+            <img src="../img/Contact/Contact.jpeg" Alt = "Foto van een iphone 8" title = "Telefoon">
+          </a>
+        
+        </figure>
        
         <p>In het geval dat u contact op zou willen nemen met ons ivm vragen, suggesties of andere problemen, verzoeken wij u om het contact formulier in te vullen. Wij zullen hier zo spoedig mogelijk op reageren.</p>
 
@@ -61,7 +68,7 @@
 
         <section id = "ContactETC">
             <label for="email">*Email:</label>
-            <input type ="text" id = "email" name = "email" placeholder = "john.doe@gmail.com">
+            <input type ="email" value="ex:john.doe@gmail.com" id = "email" name = "email">
         </section>
 
         <section id = "ContactETC">
@@ -82,7 +89,8 @@
 
         
         <section id = "SubmitButton">
-            <input type ="submit" value="Verstuur">
+            <input type ="submit" value="submit">
+            <form action="submit.php" method = "post" id = "formulier-invullen" ></form>
 
         </section>
         </fieldset>
@@ -97,16 +105,15 @@
     </footer>
 
 
-    <!--Check w3 schools how to create a mobile navigation bar if i get stuck.-->
+    
 
     <script>
-        /* When the user clicks on the button, 
-        toggle between hiding and showing the dropdown content */
+        
         function myFunction() {
           document.getElementById("myLinks").classList.toggle("show");
         }
         
-        // Close the dropdown if the user clicks outside of it
+        
         window.onclick = function(event) {
           if (!event.target.matches('.dropbtn')) {
             var dropdowns = document.getElementsByClassName("dropdown-content");
