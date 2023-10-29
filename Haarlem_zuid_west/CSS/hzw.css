@@ -163,9 +163,19 @@
     }
     
     /*voorzieningen page*/
-    #gridVoorzieningen{
-        margin-left: 8.45%;
+
+    #pageNameVoorzieningen{
         font-family: 'Gabarito', cursive;
+        margin: 20px;
+        font-size: 4em;
+        margin-left: 4%;
+    }
+
+
+    #gridVoorzieningen{
+        margin-left: 4%;
+        font-family: 'Gabarito', cursive;
+        width: 1000px;
     
     }
     
@@ -173,12 +183,10 @@
         font-size: 2.5em;
     }
     #gridVoorzieningen h2 {
-        font-size: 2em;
+        font-size: 1.625em;
     }
     
-    #gridVoorzieningen h3 {
-        font-size: 1.5em;
-    }
+    
     
     #gridVoorzieningen p {
         font-size: 1.25em;
@@ -186,6 +194,11 @@
     
     #gridVoorzieningen li {
         font-size: 1.25em;
+    }
+
+    #gridVoorzieningen figcaption{
+        font-family: 'Gabarito', cursive;
+        font-size: 1em;
     }
     
     #gridVoorzieningen a {
@@ -199,14 +212,163 @@
     }
     
     #supermarkten {
-    
         margin-bottom: 10px;
+        
     }
     #supermarkten h2 {
-        margin-top:20px;
+        margin-top:50px;
     
         margin-bottom: 10px;
     }
+
+    #h1mainimage{
+        margin-left:0px;
+    }
+
+    #h1mainimage img{
+        width:460px;
+        border-radius: 50px;
+        
+    }
+
+
+
+
+
+    #supermarktenimages{
+        float: right;
+        
+
+    }
+
+    #supermarktenimages img{
+        width: 400px;
+        border-radius: 20px;
+
+    }
+
+    #vomarstephenson{
+        margin-top: 100px;
+    }
+
+    #scholen h1{
+        margin-top:150px;
+    }
+
+
+    
+
+    #beginningarticle{
+        margin-top: 0px;
+    }
+
+    #scholen h2{
+        font-size: 1.875em;
+        
+    }
+
+
+
+    #scholen h3{
+        margin-top: 100px;
+        font-size: 1.625em;
+        
+    }
+
+    #scholenimg{
+        float: right;
+    }
+
+    #scholenimg img{
+        width:350px;
+        border-radius: 20px;
+    }
+
+    #subarticlevoorzieningen{
+        margin-top: 50px;
+        
+    }
+
+    #scholenwebsite{
+        margin-top: 50px;
+    }
+    #scholenarticle{
+        margin-top: 150px;
+    }
+
+
+
+    
+
+    #kinderopvang h1{
+        margin-top:150px;
+    }
+
+    #kinderopvang h2{
+        font-size: 1.625em;
+        margin-top: 100px
+    }
+
+    #kinderopvangimg{
+        float:right;
+    }
+
+
+    #kinderopvangimg img{
+        width:350px;
+        border-radius: 20px;
+    }
+
+    #kinderopvangwebsite{
+        margin-top: 50px;
+    }
+    
+    
+    
+    
+    #Openbaarvervoer h1{
+        margin-top: 150px;
+
+    }
+
+    #Openbaarvervoer p{
+        max-width: 450px;
+    }
+
+    #Openbaarvervoer li{
+        display: inline-block;
+        
+        
+
+    }
+
+    #Openbaarvervoer ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        padding:0;
+        margin-top: 50px;
+        max-width:450px;
+        
+    }
+
+    #Openbaarvervoerimg{
+        float:right;
+    }
+
+    #Openbaarvervoerimg img{
+        width:350px;
+        border-radius: 20px;
+    }
+
+    
+
+
+    
+
+    
+    
+    
     
     /*geschiedenis page*/
     
@@ -372,6 +534,7 @@
     
     #gridRecreatie > article > figure > a >img {
         width:400px;
+        border-radius: 20px;
        
         float: right;
     
