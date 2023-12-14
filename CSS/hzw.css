@@ -8,6 +8,10 @@
         
         align-items: flex-end;
     }
+
+    a:visited{
+        color: #990c05;
+    }
     
     .logo-img {
         width: 128px;
@@ -110,8 +114,42 @@
         margin: 20px;
         font-size: 4em;
         margin-left: 7.5%;
+        text-transform: uppercase;
     }
-    
+
+
+    /*added 14/12/2023*/
+    tr:nth-child(even) {
+        background-color: #CFF;
+    }
+
+    tr:nth-child(odd) {
+        background-color: #FFF;
+    }
+
+    td {
+        padding: 4px;
+        border: 1px solid #ccc;
+    }
+
+
+    p::first-letter {
+        text-transform: uppercase;   
+    }
+
+
+    .cookies-message {
+        position: fixed;   
+        bottom: 0;         
+        right: 0;           
+        width: 100%;       
+        background-color: #8c918e;  
+        color: #DB0A13;       
+        padding: 8px;      
+        text-align: center; 
+        z-index: 9999;     
+    }
+
     /*home page*/
     #home {
         line-height: 2em;
