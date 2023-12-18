@@ -824,7 +824,7 @@
 
     }
     
-    #ContactForm{
+    .ContactForm{
         font-family: 'Gabarito', cursive;
         line-height: 2em;
         width: 400px;
@@ -835,24 +835,24 @@
         border-color:#000;
         
     }
-    #SubmitButton {
+    .SubmitButton {
         text-align: center;
     }
 
-    #ContactForm label, input, textarea{
+    .ContactForm label, input, textarea{
         display:block;
         margin-bottom: 10px;
 
     }
-    #ContactForm input{
+    .ContactForm input{
         display: inline-block;
         
     }
-    #ContactForm legend{
+    .ContactForm legend{
         margin:auto;
     }
 
-    #ContactForm label{
+    .ContactForm label{
         display:inline-block;
         margin-bottom: 10px;
         width: 200px;
@@ -867,7 +867,7 @@
 
     
 
-    #ContactForm textarea{
+    .ContactForm textarea{
         display:inline-block;
         margin-bottom: 20px;
         text-align: center;
@@ -1483,7 +1483,7 @@
         width:290px;
     }
     
-    #ContactForm{
+    .ContactForm{
         font-family: 'Gabarito', cursive;
         margin: auto;
         line-height: 2em;
@@ -1493,25 +1493,25 @@
         
        
     }
-    #SubmitButton {
+    .SubmitButton {
         text-align: center;
     }
 
-    #ContactForm label, input, textarea{
+    .ContactForm label, input, textarea{
         display:block;
         margin-bottom: 10px;
         margin: auto;
         
 
     }
-    #ContactForm input{
+    .ContactForm input{
         display: block;
         margin:auto
         
         
     }
 
-    #ContactForm label{
+    .ContactForm label{
         display:inline-block;
         margin-bottom: 10px;
         width:290px;
@@ -1530,11 +1530,11 @@
         display:inline-block;
     }
 
-    #ContactForm legend{
+    .ContactForm legend{
         text-align: center;
     }
 
-    #ContactForm textarea{
+    .ContactForm textarea{
         display:inline-block;
         margin: auto;
         margin-bottom: 20px;
