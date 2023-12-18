@@ -364,17 +364,17 @@
         margin-top: 100px
     }
 
-    #kinderopvangimg{
+    .kinderopvangimg{
         float:right;
     }
 
 
-    #kinderopvangimg img{
+    .kinderopvangimg img{
         width:350px;
         border-radius: 20px;
     }
 
-    #kinderopvangwebsite{
+    .kinderopvangwebsite{
         margin-top: 50px;
     }
     
