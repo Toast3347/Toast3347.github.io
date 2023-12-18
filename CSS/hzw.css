@@ -278,11 +278,11 @@
 
 
 
-    #supermarktenimages{
+    .supermarktenimages{
         float: right;
     }
 
-    #supermarktenimages img{
+    .supermarktenimages img{
         width: 400px;
         border-radius: 20px;
 
