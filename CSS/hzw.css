@@ -661,7 +661,7 @@
         color:#DB0A13; 
     }
     
-    #maps{
+    .maps{
         text-decoration: underline;
         color:#000000;
     }
@@ -674,7 +674,7 @@
         margin-top: 350px;
     }
     
-    #sportscholenwebsites{
+    .sportscholenwebsites{
         margin-top: 50px;
     }
 
@@ -691,7 +691,7 @@
         margin-top:100px;
     }
     
-    #sportname{
+    .sportname{
         margin-top:150px;
     }
 
