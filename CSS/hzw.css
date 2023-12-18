@@ -264,11 +264,11 @@
         margin-bottom: 10px;
     }
 
-    #h1mainimage{
+    .h1mainimage{
         margin-left:0px;
     }
 
-    #h1mainimage img{
+    .h1mainimage img{
         width:460px;
         border-radius: 50px;
         
@@ -330,11 +330,11 @@
         
     }
 
-    #scholenimg{
+    .scholenimg{
         float: right;
     }
 
-    #scholenimg img{
+    .scholenimg img{
         width:350px;
         border-radius: 20px;
     }
@@ -344,7 +344,7 @@
         
     }
 
-    #scholenwebsite{
+    .scholenwebsite{
         margin-top: 50px;
     }
     #scholenarticle{
@@ -1332,7 +1332,7 @@
         margin:auto;
 
     }
-    #h1mainimage{
+    .h1mainimage{
         border-radius: 50px;
     }
 
